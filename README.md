@@ -28,7 +28,7 @@ All training and independent datasets are provided in the [`Dataset`](Dataset) f
 - **OS**: Ubuntu 22.04.4 LTS
 - **Python Version**: 3.9.19
 - **Required Libraries**:
-    ```
+    ```plaintext
     numpy==1.26.4
     pandas==2.2.1
     transformers==4.33.2
@@ -42,12 +42,70 @@ Install the required libraries using:
 pip install -r requirements.txt
 ```
 
-## How to Use
+---
 
-### Reproduce Results
+### How to Use
 
-1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/Sheldor7701/ResLysEmbed.git
-   cd ResLysEmbed
+#### Reproduce Results
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/your_username/ResLysEmbed.git
+    cd ResLysEmbed
     ```
+2. Prepare the environment by installing the required libraries.
+3. Train the model:
+    - Use the provided `Training_Code.ipynb` notebook to train the ResLysEmbed model.
+    - Preprocessed input files are included in the `Dataset` folder.
+4. Evaluate the model:
+    - The notebook includes steps to evaluate metrics such as Accuracy, MCC, AUROC, and AUPRC.
+5. Interpret predictions using SHAP:
+    - Run the SHAP analysis script provided to generate interpretability plots.
+
+---
+
+### Prediction
+
+#### Prerequisites
+- Install transformers and PyTorch to extract ProtT5 embeddings.
+- Refer to ProtT5-XL-U50 for embedding generation.
+
+#### Steps
+1. Generate ProtT5 embeddings for the input protein sequences.
+2. Use the provided prediction script to run the ResLysEmbed model and make predictions.
+
+---
+
+### Reproduce Metrics from the Paper
+To reproduce the metrics presented in the paper:
+1. Follow the steps in the `Training_Code.ipynb`.
+2. Metrics such as Accuracy, MCC, and F1 Score can be computed directly using the provided evaluation scripts.
+
+---
+
+### Repository Structure
+- `Dataset`: Contains the preprocessed datasets used for training and testing.
+- `Training_Code.ipynb`: Notebook for training the ResLysEmbed model.
+- `SHAP_analysis`: Scripts for interpretability analysis.
+- `Results`: Stores precomputed SHAP values and model evaluation metrics.
+
+---
+
+### Citation
+If you use this framework in your research, please cite:
+
+```bibtex
+@article{ResLysEmbed2024,
+  title={ResLysEmbed: A ResNet-Based Framework for Succinylated Lysine Residue Prediction},
+  author={Souvik Ghosh, Md Muhaiminul Islam Nafi, and M Saifur Rahman},
+  journal={Submitted to Bioinformatics},
+  year={2024}
+}
+```
+
+---
+
+### Contact
+For queries, please reach out to:
+
+- Souvik Ghosh - [email@example.com]
+- Md Muhaiminul Islam Nafi - [email@example.com]
