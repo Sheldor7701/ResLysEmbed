@@ -40,3 +40,14 @@ All training and independent datasets are provided in the [`Dataset`](Dataset) f
 Install the required libraries using:
 ```bash
 pip install -r requirements.txt
+```
+
+## How to Use
+
+### Reproduce Results
+
+1. **Clone this repository**:
+   ```bash
+   git clone https://github.com/your_username/ResLysEmbed.git
+   cd ResLysEmbed
+    ```
