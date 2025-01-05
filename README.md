@@ -48,6 +48,6 @@ pip install -r requirements.txt
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/your_username/ResLysEmbed.git
+   git clone https://github.com/Sheldor7701/ResLysEmbed.git
    cd ResLysEmbed
     ```
