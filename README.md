@@ -21,7 +21,7 @@ ResLysEmbed is a novel deep learning framework designed to predict lysine succin
 ---
 
 ### Data Availability
-All training and independent datasets are provided in the [`Dataset`](Dataset) folder. The dataset includes preprocessed sequences, ProtT5 embeddings, and PSSM profiles as used in the paper.
+All training and independent datasets are provided in the [`Dataset`](Dataset) folder. The dataset includes preprocessed sequences and ProtT5 embeddings as used in the paper.  However for the full data containing other language models (e.g. ESM-650M or ESM-3B) embeddings please refer to the link [Google Drive Link](https://drive.google.com/drive/folders/1H14eUyk3WzSsnKJHOmxgueGysxC820TJ?usp=sharing)
 
 ---
 
@@ -85,7 +85,7 @@ To reproduce the metrics presented in the paper:
 ---
 
 ### Repository Structure
-- `Dataset`: Contains the preprocessed datasets used for training and testing. However for the full data containing language model embeddings please refer to the link [Google Drive Link](https://drive.google.com/drive/folders/1H14eUyk3WzSsnKJHOmxgueGysxC820TJ?usp=sharing)
+- `Dataset`: Contains the preprocessed dataset and dataset loading script used for training and testing.
 - `Codes`: Notebooks for training the ResLysEmbed model and all other additional experiments done in the paper.
 - `SHAP_analysis`: Stores precomputed SHAP values and scripts for interpretability analysis.
 - `Results`: Stores precomputed plots that highlight the performance of the model and evaluation metrics.
