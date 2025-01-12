@@ -84,13 +84,13 @@ To reproduce the metrics presented in the paper:
 
 ### Repository Structure
 - `Dataset`: Contains the preprocessed datasets used for training and testing.
-- `Training_Code.ipynb`: Notebook for training the ResLysEmbed model.
+- `Code`: Notebook for training the ResLysEmbed model.
 - `SHAP_analysis`: Scripts for interpretability analysis.
 - `Results`: Stores precomputed SHAP values and model evaluation metrics.
 
 ---
 
-### Citation
+<!-- ### Citation
 If you use this framework in your research, please cite:
 
 ```bibtex
@@ -100,7 +100,7 @@ If you use this framework in your research, please cite:
   journal={Submitted to Bioinformatics},
   year={2024}
 }
-```
+``` -->
 
 ---
 
