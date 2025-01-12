@@ -35,6 +35,7 @@ All training and independent datasets are provided in the [`Dataset`](Dataset) f
     torch==2.0.1
     scikit-learn==1.3.2
     shap==0.42.1
+    tensorflow==2.14.0
     ```
 
 Install the required libraries using:
@@ -49,7 +50,7 @@ pip install -r requirements.txt
 #### Reproduce Results
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your_username/ResLysEmbed.git
+    git clone https://github.com/sheldor7701/ResLysEmbed.git
     cd ResLysEmbed
     ```
 2. Prepare the environment by installing the required libraries.
@@ -83,11 +84,12 @@ To reproduce the metrics presented in the paper:
 ---
 
 ### Repository Structure
-- `Dataset`: Contains the preprocessed datasets used for training and testing.
-- `Code`: Notebook for training the ResLysEmbed model.
-- `SHAP_analysis`: Scripts for interpretability analysis.
-- `Results`: Stores precomputed SHAP values and model evaluation metrics.
-
+- `Dataset`: Contains the preprocessed datasets used for training and testing. However for the full data containing language model embeddings please refer to the link [Google Drive Link](https://drive.google.com/drive/folders/1H14eUyk3WzSsnKJHOmxgueGysxC820TJ?usp=sharing)
+- `Codes`: Notebooks for training the ResLysEmbed model and all other additional experiments done in the paper.
+- `SHAP_analysis`: Stores precomputed SHAP values and scripts for interpretability analysis.
+- `Results`: Stores precomputed plots that highlight the performance of the model and evaluation metrics.
+- `Models`: Contains the saved model and model weights for ResLysEmbed.
+- `Reproduced_Works`: Contains previous works like [LMSuccSite](https://github.com/KCLabMTU/LMSuccSite) and [Psuc-EDBAM](https://github.com/wugenqiang/pSuc-EDBAM) reproduced.
 ---
 
 <!-- ### Citation
