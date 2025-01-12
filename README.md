@@ -5,7 +5,8 @@
 ---
 
 ### Framework
-![ResLysEmbed](https://github.com/user-attachments/assets/f1a30878-0d3d-4f4c-9745-f6483fca0104)
+![View ResLysEmbed Framework](https://github.com/Sheldor7701/ResLysEmbed/blob/main/Results/Plots/New%20ResLysEmbed.pdf)
+
 
 ResLysEmbed is a novel deep learning framework designed to predict lysine succinylation sites with high accuracy and interpretability. This repository includes the implementation, preprocessed datasets, and instructions for reproducing the results from the accompanying paper.
 
