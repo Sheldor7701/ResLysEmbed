@@ -51,7 +51,7 @@ pip install -r requirements.txt
 #### Reproduce Results
 1. Clone this repository:
     ```bash
-    git clone https://github.com/sheldor7701/ResLysEmbed.git
+    git clone https://github.com/Sheldor7701/ResLysEmbed.git
     cd ResLysEmbed
     ```
 2. Prepare the environment by installing the required libraries.
