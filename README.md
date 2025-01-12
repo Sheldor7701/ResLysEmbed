@@ -110,5 +110,5 @@ If you use this framework in your research, please cite:
 ### Contact
 For queries, please reach out to:
 
-- Souvik Ghosh - [email@example.com]
-- Md Muhaiminul Islam Nafi - [email@example.com]
+- Souvik Ghosh - [souvik7701@gmail.com]
+- Md Muhaiminul Islam Nafi - [nafiislam964@gmail.com]
