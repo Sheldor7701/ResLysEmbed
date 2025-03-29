@@ -86,6 +86,7 @@ To reproduce the metrics presented in the paper:
 
 ### Repository Structure
 - `Dataset`: Contains the preprocessed dataset and dataset loading script used for training and testing.
+- `Embeddings`: Contains the preprocessed training, validation, and test data files (including all the features together).
 - `Codes`: Notebooks for training the ResLysEmbed model and all other additional experiments done in the paper.
 - `SHAP_analysis`: Stores precomputed SHAP values and scripts for interpretability analysis.
 - `Results`: Stores precomputed plots that highlight the performance of the model and evaluation metrics.
